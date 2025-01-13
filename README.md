@@ -96,7 +96,7 @@ def greet(name):
 
 ---
 
-7. Object-Oriented Programming (OOP)
+7. Object-Oriented Programming (OOP):
    A. Class: A blueprint for objects.
 ```python
 
