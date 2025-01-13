@@ -35,46 +35,46 @@ Great!
 ---
 Now it's time for us to discuss some basic Python Vocabulary, these are terms that you'll need to know as we begin to delve into writing python programs.
 1.Basic Syntax and Concepts:
-A. Variable: A name assigned to a value (e.g., x = 10).
-B. Data Type: The kind of data a value represents (e.g., int, str, float, list).
-C. Indentation: Python uses indentation (spaces or tabs) to define blocks of code.
-D. Comment: 
+   A. Variable: A name assigned to a value (e.g., x = 10).
+   B. Data Type: The kind of data a value represents (e.g., int, str, float, list).
+   C. Indentation: Python uses indentation (spaces or tabs) to define blocks of code.
+   D. Comment: 
 ```
 Comment: Text in code meant for explanation, not execution. Single-line comments start with #.
 ```
 ---
 3. Data Types
-A. Integer (int): Whole numbers (e.g., 10, -3).
-B. Float (float): Numbers with decimals (e.g., 3.14, -0.5).
-C. String (str): Text enclosed in quotes (e.g., "hello", 'world').
-D. Boolean (bool): Logical values (True 1+1=2 , False 1+1=3.)
-E. List: Ordered, mutable collection of items (e.g., [1, 2, 3]). # Notice the square brackets?
-G. Tuple: Ordered, immutable collection (e.g., (1, 2, 3)).
-E. Dictionary (dict): Key-value pairs (e.g., {'key': 'value'}). # Notice the colon & the curly brackets?
-F. Set: Unordered collection of unique items (e.g., {1, 2, 3}). # Notice the coma deliniation & curly brackets?
+   A. Integer (int): Whole numbers (e.g., 10, -3).
+   B. Float (float): Numbers with decimals (e.g., 3.14, -0.5).
+   C. String (str): Text enclosed in quotes (e.g., "hello", 'world').
+   D. Boolean (bool): Logical values (True 1+1=2 , False 1+1=3.)
+   E. List: Ordered, mutable collection of items (e.g., [1, 2, 3]). # Notice the square brackets?
+   G. Tuple: Ordered, immutable collection (e.g., (1, 2, 3)).
+   E. Dictionary (dict): Key-value pairs (e.g., {'key': 'value'}). # Notice the colon & the curly brackets?
+   F. Set: Unordered collection of unique items (e.g., {1, 2, 3}). # Notice the coma deliniation & curly brackets?
 ---
 
 4. Control Flow
-A. If Statement: Executes a block of code if a condition is true.
+   A. If Statement: Executes a block of code if a condition is true.
 ```python
 
 if x > 0:
     print("Positive")
 ```
-B. For Loop: Iterates over a sequence (e.g., a list).
+   B. For Loop: Iterates over a sequence (e.g., a list).
 ```python
 
 for item in [1, 2, 3]:
     print(item)
 ```
-C. While Loop: Repeats as long as a condition is true.
+   C. While Loop: Repeats as long as a condition is true.
 ```python
 
 while x < 5:
     x += 1
 ```
-D. Break: Exits the loop immediately.
-   Continue: Skips the current iteration and continues with the next.
+   D. Break: Exits the loop immediately.
+   E. Continue: Skips the current iteration and continues with the next.
 
 ---
 
@@ -84,34 +84,34 @@ D. Break: Exits the loop immediately.
 def greet(name):
     return f"Hello, {name}!"
 ```
-A. Parameter: Variable used in function definition.
-B. Argument: Value passed to a function.
+   A. Parameter: Variable used in function definition.
+   B. Argument: Value passed to a function.
 
 ---
 
 6. Common Operators:
-A. Arithmetic Operators: + (add), - (subtract), * (multiply), / (divide), % (modulus), ** (exponentiation).
-B. Comparison Operators: == (equal), != (not equal), <, >, <=, >=.
-C. Logical Operators: and, or, not.
+   A. Arithmetic Operators: + (add), - (subtract), * (multiply), / (divide), % (modulus), ** (exponentiation).
+   B. Comparison Operators: == (equal), != (not equal), <, >, <=, >=.
+   C. Logical Operators: and, or, not.
 
 ---
 
 7. Object-Oriented Programming (OOP)
-A. Class: A blueprint for objects.
+   A. Class: A blueprint for objects.
 ```python
 
 class Person:
     def __init__(self, name):
         self.name = name
 ```
-B. Object: An instance of a class.
-C. Method: A function defined inside a class.
-D. Attribute: Variables tied to an object.
+   B. Object: An instance of a class.
+   C. Method: A function defined inside a class.
+   D. Attribute: Variables tied to an object.
 
 ---
 
 7. Error Handling
-A. Try/Except: Catches and handles exceptions.
+   A. Try/Except: Catches and handles exceptions.
 ```python
 
 try:
@@ -122,12 +122,12 @@ except ZeroDivisionError:
 ---
 
 8. Input/Output
-A. Print: Outputs data.
+   A. Print: Outputs data.
 ```python
 
 print("Hello, World!")
 ```
-B. Input: Receives user input as a string.
+   B. Input: Receives user input as a string.
 ```python
 
 name = input("Enter your name: ")
@@ -135,24 +135,24 @@ name = input("Enter your name: ")
 ---
 
 9. File Handling
-A. Open: Opens a file for reading, writing, or appending.
+   A. Open: Opens a file for reading, writing, or appending.
 ```python
 
 with open("file.txt", "r") as file:
     content = file.read()
 ```
-B. Read: Reads file content.
-C. Write: Writes data to a file.
+   B. Read: Reads file content.
+   C. Write: Writes data to a file.
 
 ---
 
 10. Libraries and Modules
-A. Import: Loads external Python code.
+   A. Import: Loads external Python code.
 ```python
 
 import math
 ```
-B. Module: A Python file with reusable code (e.g., math, os, random).
-C. Library: A collection of modules (e.g., NumPy, Pandas).
+   B. Module: A Python file with reusable code (e.g., math, os, random).
+   C. Library: A collection of modules (e.g., NumPy, Pandas).
 
 
