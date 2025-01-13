@@ -1,26 +1,29 @@
 # python-intro-course
 Introduction to Python series.
 
-Hi everyone! My name is Mark 'Markus' Nations, and I’m excited to introduce you to the world of programming using Python. A little about me—I’m a Marine Corps Veteran and a dedicated software developer with experience in Ai/Ml, Optimization development, cybersecurity, DevSecOps, and ethical hacking. I’ve worked on projects ranging from building web applications to optimizing tools for advanced security purposes to training machine learning models & Ai at enterprise scale. My passion lies in teaching others how to think like problem-solvers and empowering them to create something meaningful through technology.
+Hi everyone! My name is Mark 'Markus' Nations, and I’m excited to introduce you to the world of Python programming . 
+A little about me—I’m a Marine Corps Veteran and a dedicated software developer with experience in Ai/Ml, Optimization development, cybersecurity, DevSecOps, and ethical hacking. I’ve worked on projects ranging from building web applications to optimizing tools for advanced security purposes to training machine learning models & Ai at enterprise scale. My passion lies in teaching others how to think like problem-solvers and empowering them to create something meaningful through technology.
 
-Today, I’ll guide you through the basics of Python, a programming language known for being beginner-friendly, versatile, and powerful. Whether you want to build websites, automate repetitive tasks, or dive into data science, Python is the perfect starting point.
-And what's the hottest topic in technology today?
+Today, I’ll guide you through the basics of Python, a programming language known for being beginner-friendly, versatile, and powerful. Whether you want to build websites, automate repetitive tasks, or dive into data science, Python is the perfect starting point. So good?
+
+Let's talk about the hottest topic in technology today... Anyone want to guess what that is?
 Ai, right?
-AI IS the hottest topic in technology today, and Python has cemented itself as the go-to programming language for artificial intelligence. It's vast libraries, ease of use, and active community make Python indispensable for AI development, from data preprocessing and model building to deployment and beyond. Whether you're a seasoned developer or just starting, mastering Python is key in the AI space!
+AI IS the hottest topic in technology today, and Python has cemented itself as the go-to programming language for artificial intelligence. It's vast libraries, ease of use, and active community make Python the go to for AI development, from data preprocessing and model building to deployment and beyond. Whether you're a seasoned developer or just starting, mastering Python is key in the AI space!
 
-No need to worry! You don’t need to have any prior experience. We’ll begin with the very basics and build step by step. By the end of this lesson, you’ll have written your very first Python program—and hopefully, you’ll feel inspired to explore more.
+If you don't have any experience with programming languages need to worry! You don’t need to have any prior experience. Python has a very easy to learn syntax.
+We’ll begin with the very basics and build step by step. By the end of this lesson, you’ll have written your very first Python program—and hopefully, you’ll feel inspired to explore more.
 
 So, let’s get started going over our main course objectives:
 1. Understand what Python is and why it’s popular.
-2. Write and run their first Python program.
-3. Learn the basic syntax and structure of Python.
+2. Write and run your first Python program.
+3. We're going to learn the basic syntax and structure of Python.
 
 Question: What comes to your mind when you hear the word programming? 
 Answers: websites, applications, video games, AI....
 You're all correct! We also have IoT devices, which are devices out in the wild that connect to the internet, typically via a cloud solution. We'll get to cloud providers and solutions sometime in the near future.
 
 Question: So why learn python? I'll give you my top 3 reasons:
-1. Python is easy to learn and from beginner to expert, most IDE's or integrated development environments, haev what's called a linter.
+1. Python is easy to learn and from beginner to expert, most IDE's or integrated development environments, have what's called a linter.
    A. Who know's what a linter is?
    A1. lenter is a tool built into most ide's, not all, that automatically analyzes source code and identifies or flags issues, faulty syntax, bugs, vulnerabilities, ect. I personally use VS Code and their linter has a predictive code feature that's fairly robust and accurate... most of the time. We'll come back to that when we set up our development environments.
 2. Python is the language that brings us apps like Instagram, YouTube, and yes even NetFlix, just to name a few that we've all used or at least have heard of.
