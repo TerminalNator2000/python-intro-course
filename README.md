@@ -32,75 +32,85 @@ Fun Fact: Python is named after 'Monty Python' as in 'Monty Python and the searc
 How are we doing so far?
 Any questions before we move on?
 Great!
-
+---
 Now it's time for us to discuss some basic Python Vocabulary, these are terms that you'll need to know as we begin to delve into writing python programs.
 1.Basic Syntax and Concepts:
-Variable: A name assigned to a value (e.g., x = 10).
-Data Type: The kind of data a value represents (e.g., int, str, float, list).
-Indentation: Python uses indentation (spaces or tabs) to define blocks of code.
-Comment: Text in code meant for explanation, not execution. Single-line comments start with #.
+A. Variable: A name assigned to a value (e.g., x = 10).
+B. Data Type: The kind of data a value represents (e.g., int, str, float, list).
+C. Indentation: Python uses indentation (spaces or tabs) to define blocks of code.
+D. Comment: 
+```   # Comment: Text in code meant for explanation, not execution. Single-line comments start with #.
+```
+---
+3. Data Types
+A. Integer (int): Whole numbers (e.g., 10, -3).
+B. Float (float): Numbers with decimals (e.g., 3.14, -0.5).
+C. String (str): Text enclosed in quotes (e.g., "hello", 'world').
+D. Boolean (bool): Logical values (True 1+1=2 , False 1+1=3.)
+E. List: Ordered, mutable collection of items (e.g., [1, 2, 3]). # Notice the square brackets?
+G. Tuple: Ordered, immutable collection (e.g., (1, 2, 3)).
+E. Dictionary (dict): Key-value pairs (e.g., {'key': 'value'}). # Notice the colon & the curly brackets?
+F. Set: Unordered collection of unique items (e.g., {1, 2, 3}). # Notice the coma deliniation & curly brackets?
+---
 
-2. Data Types
-Integer (int): Whole numbers (e.g., 10, -3).
-Float (float): Numbers with decimals (e.g., 3.14, -0.5).
-String (str): Text enclosed in quotes (e.g., "hello", 'world').
-Boolean (bool): Logical values (True or False).
-List: Ordered, mutable collection of items (e.g., [1, 2, 3]).
-Tuple: Ordered, immutable collection (e.g., (1, 2, 3)).
-Dictionary (dict): Key-value pairs (e.g., {'key': 'value'}).
-Set: Unordered collection of unique items (e.g., {1, 2, 3}).
-
-3. Control Flow
-If Statement: Executes a block of code if a condition is true.
+4. Control Flow
+A. If Statement: Executes a block of code if a condition is true.
 ```python
 
 if x > 0:
     print("Positive")
 ```
-For Loop: Iterates over a sequence (e.g., a list).
+B. For Loop: Iterates over a sequence (e.g., a list).
 ```python
 
 for item in [1, 2, 3]:
     print(item)
 ```
-While Loop: Repeats as long as a condition is true.
+C. While Loop: Repeats as long as a condition is true.
 ```python
 
 while x < 5:
     x += 1
 ```
-Break: Exits the loop immediately.
-Continue: Skips the current iteration and continues with the next.
+D. Break: Exits the loop immediately.
+   Continue: Skips the current iteration and continues with the next.
 
-4. Functions
-Function: A block of reusable code defined using def.
+---
+
+5. Functions: Function is a block of reusable code defined using def.
 ```python
 
 def greet(name):
     return f"Hello, {name}!"
 ```
-Parameter: Variable used in function definition.
-Argument: Value passed to a function.
+A. Parameter: Variable used in function definition.
+B. Argument: Value passed to a function.
 
-5. Common Operators
-Arithmetic Operators: + (add), - (subtract), * (multiply), / (divide), % (modulus), ** (exponentiation).
-Comparison Operators: == (equal), != (not equal), <, >, <=, >=.
-Logical Operators: and, or, not.
+---
 
-6. Object-Oriented Programming (OOP)
-Class: A blueprint for objects.
+6. Common Operators:
+A. Arithmetic Operators: + (add), - (subtract), * (multiply), / (divide), % (modulus), ** (exponentiation).
+B. Comparison Operators: == (equal), != (not equal), <, >, <=, >=.
+C. Logical Operators: and, or, not.
+
+---
+
+7. Object-Oriented Programming (OOP)
+A. Class: A blueprint for objects.
 ```python
 
 class Person:
     def __init__(self, name):
         self.name = name
 ```
-Object: An instance of a class.
-Method: A function defined inside a class.
-Attribute: Variables tied to an object.
+B. Object: An instance of a class.
+C. Method: A function defined inside a class.
+D. Attribute: Variables tied to an object.
+
+---
 
 7. Error Handling
-Try/Except: Catches and handles exceptions.
+A. Try/Except: Catches and handles exceptions.
 ```python
 
 try:
@@ -108,34 +118,40 @@ try:
 except ZeroDivisionError:
     print("Cannot divide by zero.")
 ```
+---
+
 8. Input/Output
-Print: Outputs data.
+A. Print: Outputs data.
 ```python
 
 print("Hello, World!")
 ```
-Input: Receives user input as a string.
+B. Input: Receives user input as a string.
 ```python
 
 name = input("Enter your name: ")
 ```
+---
+
 9. File Handling
-Open: Opens a file for reading, writing, or appending.
+A. Open: Opens a file for reading, writing, or appending.
 ```python
 
 with open("file.txt", "r") as file:
     content = file.read()
 ```
-Read: Reads file content.
-Write: Writes data to a file.
+B. Read: Reads file content.
+C. Write: Writes data to a file.
+
+---
 
 10. Libraries and Modules
-Import: Loads external Python code.
+A. Import: Loads external Python code.
 ```python
 
 import math
 ```
-Module: A Python file with reusable code (e.g., math, os, random).
-Library: A collection of modules (e.g., NumPy, Pandas).
+B. Module: A Python file with reusable code (e.g., math, os, random).
+C. Library: A collection of modules (e.g., NumPy, Pandas).
 
 
