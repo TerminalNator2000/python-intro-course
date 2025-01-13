@@ -39,7 +39,8 @@ A. Variable: A name assigned to a value (e.g., x = 10).
 B. Data Type: The kind of data a value represents (e.g., int, str, float, list).
 C. Indentation: Python uses indentation (spaces or tabs) to define blocks of code.
 D. Comment: 
-```   # Comment: Text in code meant for explanation, not execution. Single-line comments start with #.
+```
+Comment: Text in code meant for explanation, not execution. Single-line comments start with #.
 ```
 ---
 3. Data Types
